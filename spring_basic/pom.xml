@@ -22,13 +22,13 @@
             <artifactId>spring-core</artifactId>
             <version>${spring-version}</version>
         </dependency>
-        <!-- spring bean，依赖spring-core，用来提供基础IOC/DI -->
+        <!-- spring bean -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
             <version>${spring-version}</version>
         </dependency>
-        <!--spring 上下文信息-->
+        <!-- spring上下文信息 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
