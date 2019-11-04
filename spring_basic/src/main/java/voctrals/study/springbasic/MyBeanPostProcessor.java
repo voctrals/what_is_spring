@@ -9,7 +9,7 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
  * @since 19-10-30
  */
 @Slf4j
-public class InitHelloWorld implements BeanPostProcessor {
+public class MyBeanPostProcessor implements BeanPostProcessor {
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {

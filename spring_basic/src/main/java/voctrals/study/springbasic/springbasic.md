@@ -17,3 +17,6 @@
 #### 6 BeanPostProcessor.postProcessBeforeInitialization
 #### 9 BeanPostProcessor.postProcessAfterInitialization
 
+### MyBeanFactoryPostProcessor.postProcessBeanFactory
+>bean工厂的bean属性处理容器，说通俗一些就是可以管理我们的bean工厂内所有的beandefinition（未实例化）数据，可以随心所欲的修改属性。
+>

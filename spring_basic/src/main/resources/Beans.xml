@@ -12,6 +12,7 @@
         <!--<property name="message" value="Hello World!"/>-->
     <!--</bean>-->
 
-    <bean class="voctrals.study.springbasic.InitHelloWorld"/>
+    <bean class="voctrals.study.springbasic.MyBeanPostProcessor"/>
+    <bean class="voctrals.study.springbasic.MyBeanFactoryPostProcessor"/>
 
 </beans>
