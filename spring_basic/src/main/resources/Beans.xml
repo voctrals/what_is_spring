@@ -4,13 +4,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="helloWorld" class="voctrals.study.springbasic.HelloWorld">
+    <bean id="helloWorld" class="voctrals.study.springbasic.HelloWorldComponent">
         <property name="message" value="Hello World!"/>
     </bean>
-
-    <!--<bean id="helloWorld2" class="voctrals.study.springbasic.HelloWorld2">-->
-        <!--<property name="message" value="Hello World!"/>-->
-    <!--</bean>-->
 
     <bean class="voctrals.study.springbasic.MyBeanPostProcessor"/>
     <bean class="voctrals.study.springbasic.MyBeanFactoryPostProcessor"/>

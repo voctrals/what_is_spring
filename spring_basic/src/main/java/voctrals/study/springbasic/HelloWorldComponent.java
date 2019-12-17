@@ -11,7 +11,7 @@ import org.springframework.context.ApplicationContextAware;
  * @since 19-8-28
  */
 @Slf4j
-public class HelloWorld implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
+public class HelloWorldComponent implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
 
     private String message;
 
